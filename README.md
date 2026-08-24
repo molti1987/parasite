@@ -20,7 +20,7 @@ The measurement process consists of the following steps:
 sudo python3 parasyte.py
 
 - Create Bridge Interface
-- 
+
 cb "int1" "int2"
 
 => This mode only enables the device do sniffer the network traffic
