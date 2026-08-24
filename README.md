@@ -18,12 +18,17 @@ The measurement process consists of the following steps:
 # Example
 - Start the CLI with: 
 sudo python3 parasyte.py
+
 - Create Bridge Interface
+- 
 cb "int1" "int2"
+
 => This mode only enables the device do sniffer the network traffic
 
 - Create two bridge interfaces
+ 
 cp "int1" "int2" "Client MAC" "Client IP" "IP Bridge Interface"
+
 => This mode sets an IP address to the Network Bridge Interface to access the network. Inside a second terminal window, the duplycate.py script needs to be started within the parasite network namespace
 Inside the script, the interface close to the client need to be adopted and also the IP and MAC of the Bridge interface
 sudo ip netns exec parasite python3 duplicate.py
