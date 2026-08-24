@@ -1,10 +1,11 @@
-# Network Difference Measurement Tool
+# Network Parasite to bypass 802.1X and Infiltrate the network
 
 This repository contains the source code developed for the master's thesis
 "How can a Raspberry Pi be configured to transparently forward network traffic
 for 802.1X and remain undetected by network scanners".
 
 The program is intended for use only in a controlled laboratory setup or for testing purposes.
+TCP packages are not working!
 
 This tool uses a CLI Interface to set up the Bridge Mode and Parasite Mode.
 
