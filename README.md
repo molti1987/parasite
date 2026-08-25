@@ -9,6 +9,7 @@ TCP traffic ist currentl not supported in Parasite Mode.
 
 This tool provides a command line interface (CLI) to configure Bridge- and Parasite-Mode
 
+![Network Parasite](parasite_pic.png)
 # Script
 parasite.py  => main CLI application
 duplicate.py => packet duplication
